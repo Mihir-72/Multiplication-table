@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Enter value to generate table</h1>
+
+    <input
+      type="number"
+      class="data"
+      placeholder="placeholder enter the value"
+    />
+
+    <button class="btn">generate table</button>
+
+    <p class="output"></p>
+
+    <script>
+      const btn = document.querySelector(".btn");
+      const output = document.querySelector(".output");
+      const val = document.querySelector(".data");
+
+      btn.addEventListener("click", function () {});
+
+      if (val < 1) {
+        console.log("please enter positive value");
+      } else {
+        console.log("tah");
+      }
+    </script>
+  </body>
+</html>
